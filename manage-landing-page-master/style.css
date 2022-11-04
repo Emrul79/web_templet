@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --orange:  hsl(12, 88%, 59%);
+  --blue: hsl(228, 39%, 23%);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-color: rgb(65, 42, 13); */
+    /* background-color: var(--orange); */
+    background-image: url(./images/bg-simplify-section-desktop.svg);
+}
+.nabigation{
+    padding: 30px;
+
+}
+.mynavItem{
+    margin-left: 200px;
+}
+.mynavItem ul li{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.mynavItem button{
+    padding: 10px 15px;
+    background-color: var(--orange);
+    border: none;
+}
