@@ -27,14 +27,14 @@
   color: white;
   cursor: pointer;
   padding: 10px 15px;
-  background-color: hsl(12, 88%, 59%) ;
+  background-color: hsl(12, 88%, 59%);
   border: none;
   transition: 0.5s;
 }
 .mynavItem button:hover,
 .hero-section button:hover,
-.button button:hover{
-    background-color: rgb(104, 28, 0);
+.button button:hover {
+  background-color: rgb(104, 28, 0);
 }
 .hero-section h1 {
   font-size: 55px;
@@ -131,9 +131,9 @@
   border-radius: 45px;
   transition: 0.5s;
 }
-.works button:hover{
-    background-color: rgb(134, 134, 134);
-    color: white;
+.works button:hover {
+  background-color: rgb(134, 134, 134);
+  color: white;
 }
 .foot {
   padding: 40px;
@@ -178,6 +178,13 @@
   .hero-section img {
     width: 350px;
   }
+  .hero-section h1 {
+    font-size: 25px;
+    font-weight: 600;
+    /* padding: 20px 0px; */
+    width: 100%;
+    line-height: 60px;
+  }
   body h1 {
     font-size: 35px;
     font-weight: 500;
@@ -185,7 +192,16 @@
     width: 100%;
     line-height: 50px;
   }
+  .manages h1 {
+  font-size: 20px;
+}
+.works h1 {
+  font-size: 25px;
+
+  color: white;
+}
   .about {
     margin-top: 30px !important;
   }
+
 }
