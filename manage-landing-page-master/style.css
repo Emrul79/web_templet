@@ -1,35 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
-  --orange:  hsl(12, 88%, 59%);
+  --orange: hsl(12, 88%, 59%);
   --blue: hsl(228, 39%, 23%);
 }
-body{
-    width: 100%;
-    height: 100vh;
-    background-position: right;
-    background-repeat: no-repeat;
-    /* background-color: rgb(65, 42, 13); */
-    /* background-color: var(--orange); */
-    background-image: url(./images/bg-simplify-section-desktop.svg);
-}
-.nabigation{
-    padding: 30px;
 
+
+.nabigation {
+  padding: 30px;
 }
-.mynavItem{
-    margin-left: 200px;
+.mynavItem {
+  margin-left: 200px;
 }
-.mynavItem ul li{
-    font-size: 20px;
-    margin-left: 10px;
+.mynavItem ul li {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.mynavItem button,
+.hero-section button,
+.button button {
+  border-radius: 50px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: var(--orange);
+  border: none;
+}
+.hero-section h1 {
+  font-size: 55px;
+  font-weight: 600;
+  padding: 20px 0px;
+  width: 80%;
+  line-height: 80px;
+}
+.hero-section p,.mtext{
+    width: 70%;
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.hero-section button{
+    margin: 20px 0px;
+    width: 180px;
+}
+.manages h1{
+    font-size: 50px;
+}
+.heading span{
+    font-size:18px;
     font-weight: 600;
-}
-.mynavItem button{
-    padding: 10px 15px;
+    color: white;
+    width: 50px !important;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 30px; */
     background-color: var(--orange);
-    border: none;
+}
+.text{
+    margin-left: 20px;
+}
+.text h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px ;
+}
+.text p{
+    font-size: 17px;
+    margin: 20px 0px;
+    width: 75%;
+}
+.newslatter,.all-menege{
+    margin-top: 100px;
+}
+.newslatter h1{
+    font-size: 50px;
+    margin: 30px 0px 60px 0px;
+}
+.people{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.people img{
+    width: 50px;
+}
+.people p{
+        font-size: 18px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 600;
+        opacity: 0.6;
+}
+@media screen and (max-width: 592px) {
+  .hero-section img {
+    width: 350px;
+  }
+  .hero-section h1 {
+    font-size: 35px;
+    font-weight: 500;
+    padding: 10px 0px;
+    width: 100%;
+    line-height: 50px;
+  }
 }
